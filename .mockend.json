@@ -26,6 +26,21 @@
 		},
 		"surface_water": {
 			"string": {}
+		},
+		"residents": {
+			"hasMany": "People"
+		},
+		"films": {
+			"hasMany": "Film"
+		},
+		"url": {
+			"string": {}
+		},
+		"created": {
+			"regexp": "/(\\d{4})-(\\d{2})-(\\d{2})T(\\d{2})\\:(\\d{2})\\:(\\d{2})[+-](\\d{2})\\:(\\d{2})/"
+		},
+		"edited": {
+			"regexp": "/(\\d{4})-(\\d{2})-(\\d{2})T(\\d{2})\\:(\\d{2})\\:(\\d{2})[+-](\\d{2})\\:(\\d{2})/"
 		}
 	}
 }
