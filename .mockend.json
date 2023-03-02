@@ -22,7 +22,13 @@
 			"string": {}
 		},
 		"climate": {
-			"string": {}
+			"string": [
+				"tropical",
+				"dry",
+				"polar",
+				"temperate",
+				"continental"
+			]
 		},
 		"terrain": {
 			"string": {}
