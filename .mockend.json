@@ -7,7 +7,7 @@
 			"string": {}
 		},
 		"diameter": {
-			"string": {}
+			"regexp": "/^(?:[5-9]|[1-9][0-9]{1,2}|[1-4][0-9]{3}|5000)$/gm"
 		},
 		"rotation_period": {
 			"string": {}
