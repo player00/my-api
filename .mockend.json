@@ -64,6 +64,9 @@
 				"male",
 				"female"
 			]
+		},
+		"homeworld": {
+			"belongsTo": "Planet"
 		}
 	}
 }
